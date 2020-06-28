@@ -1,0 +1,22 @@
+$gt-green: #24cf16;
+
+.fill-window {
+    height: 100%;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+}
+
+.Landing {
+    display: flex;
+    flex: 1;
+    background-color: $gt-green;
+    justify-content: center;
+    
+    .col {
+        height: 100%;
+        display: flex;
+        align-items: center;
+    }
+}
