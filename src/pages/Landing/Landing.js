@@ -8,9 +8,10 @@ function Landing() {
     return (
         <Container className='fill-window Landing'>
             <Col>
-                <span>
+                <h1 className='title-text'>
                     greentea
-                </span>
+                </h1>
+                <input type='submit' value='Submit'/>
             </Col>
         </Container>
     )
