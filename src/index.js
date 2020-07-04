@@ -3,11 +3,12 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import Landing from './pages/Landing/Landing';
+import Watch from './pages/Watch/Watch';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Landing />
+    <Watch />
   </React.StrictMode>,
   document.getElementById('root')
 );

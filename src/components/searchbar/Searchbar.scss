@@ -1,0 +1,23 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+
+    .searchBar {
+        height: 30px;
+        border: white;
+        border-radius: 20px;
+        width: 250px;
+        padding: 0px 38px 0px 12px;
+        z-index: 1;
+    }
+
+    .searchIcon {
+        color: rgb(0, 51, 0);
+        z-index: 2;
+        position: absolute;
+        right: 0;
+        margin: 0px 10px;
+    }
+}
